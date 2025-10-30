@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+p {
+    background-color:rgb(214, 27, 92);
+    color: rgb(12, 1, 1);
+    font-family: Verdana;
+}
+.number2 {
+  color: blue;
+  font-size: 36px;
+}
+.adjustfontsize {
+    font-size: 34px;
+}
+.number4 {
+    background-color: lightgreen;
+    font-weight: bold;
+}
