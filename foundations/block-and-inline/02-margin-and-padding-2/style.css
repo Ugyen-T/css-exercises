@@ -9,42 +9,35 @@ body {
   margin: 100px auto;
   border: #1298f2;
   padding: 100px;
-
 }
 
 .title {
   background: #e3f4ff;
-
 }
 
 .content {
- display: inline-block;
-  
-width: 200px;
-padding: 10px;
-margin-bottom: 10px;
-padding-left: 200px;
-padding-right: 150px;
-background: #e3f4ff;
-
-
-}
+  width: 525px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: -2px;
+  padding-right: 15px;
+  background: #e3f4ff;
+  }
 
 .button-container {
-
   background: #e3f4ff;
   padding-left: 200px;
-  padding-bottom: 50px;
-    padding-top: 10px;
-
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   display: block;
-  margin-top: 10px;
-  margin-left: -20px;
-
-  
+  margin-top: 5px;
+  margin-left: -25px;
+  padding-top: 5px;
+  padding-bottom:  5px;
 }
