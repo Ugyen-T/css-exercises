@@ -5,10 +5,55 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column; 
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:10px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap:10px;
+}
+
+.footer {
+  background-color: #eeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:10px;
+  margin-left: -30px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap:10px;
 }
 
 img {
-  width: 600px;
+  width: 600px; 
 }
 
 button {
@@ -23,4 +68,29 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-left: -10px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;      
+  gap: 20px;               
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+a {
+  display: flex;  
+  justify-content: center;  
+  flex-direction: column; 
+  text-decoration: none;
+  color: rgba(150, 144, 144, 0.686);
+}
+
+ul {
+  list-style-type: none;
+}
+
+
